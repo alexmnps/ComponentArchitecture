@@ -1,6 +1,7 @@
 # Swift Component Architecture
+
 Inspired by the [React JS component architecture](https://reactjs.org/docs/react-component.html).
-Name is provisional.
+Concept.
 
 ```swift
 class CustomComponent: Component {
@@ -20,16 +21,6 @@ class CustomComponent: Component {
 ```
 
 <img src="Docs/demo.png" width="250"/>
-
-## Project status
-
-Pre-alpha / concept-phase.
-
-- [x] MVP with support for UILabel & UIStackView components
-- [ ] Support for all common UIKit classes
-- [ ] Support for Flexbox layouting
-- [ ] Support for Markup rendering
-- [ ] Direct integration with ReSwift 
 
 ## `Component` protocol
 
